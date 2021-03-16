@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-mongoose.connect("mongodb://localhost/ironhack-bcrypt");
+mongoose.connect("mongodb://localhost/ironhack-bcrypt",{ useUnifiedTopology: true });
 
 var express = require('express');
 var path = require('path');
