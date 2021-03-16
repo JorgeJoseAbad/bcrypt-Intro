@@ -70,7 +70,7 @@ router.post('/login', function(req, res, next) {
           error: true
         });
       }
-      else res.send(`Welcome ${username}`)
+      else res.send(`Welcome ${username} <br><a href="/">return intro</a>`)
     })
   })
 });
