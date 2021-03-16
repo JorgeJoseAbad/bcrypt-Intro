@@ -1,6 +1,6 @@
 # Bcrypt
 
-BackEnd proyect with Node/Express/MongoDB, generated with express-generator.
+Bcrypt back-end proyect with Node/Express/MongoDB, generated with express-generator.
 
 Elementary practice in routing, views, models, and database connection using Mongoose. And signup and login with encryption using Bcrypt.
 
